@@ -10,7 +10,7 @@ function Home() {
         <Grid alignItems="center" item xs={6}>
           <Box paddingX={20} >
             <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo(a) ao meu blog!</Typography>
-            <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Fórum para amantes de programação!</Typography>
+            <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Área dos amantes de programação!</Typography>
           </Box>
           <Box display="flex" justifyContent="center">
             <Box marginRight={1}>
