@@ -6,3 +6,11 @@
 .text-decorator-nome {
     text-decoration: none;
 }
+
+.bgnav {
+    background-color: purple;
+}
+
+.textobranco {
+    color: white;
+}

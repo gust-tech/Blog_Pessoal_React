@@ -2,22 +2,25 @@ import React from 'react';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import { Box } from '@mui/material';
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <>
             <AppBar position="static">
-                <Toolbar variant="dense">
+                <Toolbar variant="dense" className='bgnav'>
                     <Box className='Cursor' >
                         <Typography variant="h5" color="inherit">
-                            BlogPessoal
+                            Tech Blog
                         </Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className='Cursor'>
                             <Typography variant="h6" color="inherit">
-                                Home
+                                <Link to='/home' className='textobranco'>
+                                    Home
+                                </Link>
                             </Typography>
                         </Box>
                         <Box mx={1} className='Cursor'>
