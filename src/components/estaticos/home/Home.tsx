@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import {Typography, Grid, Button} from '@material-ui/core';
 import {Box} from '@mui/material';
-import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
-import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
 import './Home.css';
 import { useNavigate } from 'react-router';
 import useLocalStorage from 'react-use-localstorage';
+import TabPostagem from '../../postagens/tabpostagem/TabPostagem';
+import ModalPostagem from '../../postagens/modalPostagem/ModalPostagem';
 
 function Home() {
 
