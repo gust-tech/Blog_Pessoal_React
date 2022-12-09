@@ -40,7 +40,7 @@ function Login() {
         async function onSubmit(e: ChangeEvent<HTMLFormElement>){
             e.preventDefault();
             try{
-                await login(`/usuarios/logar`, userLogin, setToken)
+                await login(`/auth/logar`, userLogin, setToken)
                 toast.success('Usuário logado com sucesso!', {
                     position: "top-right",
                     autoClose: 2000,

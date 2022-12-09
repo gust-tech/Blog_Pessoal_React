@@ -36,10 +36,10 @@ function Navbar() {
 
     if(token != ""){
         navbarComponent = <AppBar position="static">
-        <Toolbar variant="dense">
+        <Toolbar variant="dense" className='bgnav'>
             <Box className='cursor'>
                 <Typography variant="h5" color="inherit">
-                    BlogPessoal
+                    Tech Blog
                 </Typography>
             </Box>
 
@@ -47,35 +47,35 @@ function Navbar() {
                 <Link to="/home" className="text-decorator-none">
                     <Box mx={1} className='cursor'>
                         <Typography variant="h6" color="inherit">
-                            home
+                            Home
                         </Typography>
                     </Box>
                 </Link>
                 <Link to="/posts" className="text-decorator-none">
                     <Box mx={1} className='cursor'>
                         <Typography variant="h6" color="inherit">
-                            postagens
+                            Posts
                         </Typography>
                     </Box>
                 </Link>
                 <Link to="/temas" className="text-decorator-none">
                 <Box mx={1} className='cursor'>
                     <Typography variant="h6" color="inherit">
-                        temas
+                        Temas
                     </Typography>
                 </Box>
                 </Link>
                 <Link to="/formularioTema" className="text-decorator-none">
                 <Box mx={1} className='cursor'>
                     <Typography variant="h6" color="inherit">
-                        cadastrar tema
+                        Criar Tema
                     </Typography>
                 </Box>
                 </Link>
               
                     <Box mx={1} className='cursor' onClick={goLogout}>
                         <Typography variant="h6" color="inherit">
-                            logout
+                            Sair
                         </Typography>
                     </Box>
                 

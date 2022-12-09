@@ -54,7 +54,7 @@ function CadastroUsuario() {
         e.preventDefault()
         if(confirmarSenha == user.senha){
         cadastroUsuario(`/usuarios/cadastrar`, user, setUserResult)
-        toast.success('Usuario cadastrado com sucesso', {
+        toast.success('Conta registrada com sucesso!', {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
@@ -65,7 +65,7 @@ function CadastroUsuario() {
             progress: undefined,
             });
         }else{
-            toast.error('Dados inconsistentes. Favor verificar as informações de cadastro.', {
+            toast.error('Dados inconsistentes. Verifique as informações e tente novamente', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,

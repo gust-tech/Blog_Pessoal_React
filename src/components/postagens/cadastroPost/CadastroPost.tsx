@@ -43,7 +43,6 @@ function CadastroPost() {
         id: 0,
         titulo: '',
         texto: '',
-        data: '',
         tema: null
     })
 
@@ -96,7 +95,7 @@ function CadastroPost() {
                     'Authorization': token
                 }
             })
-            toast.success('Postagem atualizada com sucesso', {
+            toast.success('Postagem modificada com sucesso!', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -112,7 +111,7 @@ function CadastroPost() {
                     'Authorization': token
                 }
             })
-            toast.success('Postagem cadastrada com sucesso', {
+            toast.success('Postagem criada com sucesso!', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
